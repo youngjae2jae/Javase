@@ -24,13 +24,13 @@ public class PracticeCode {
 static void useVariables1() {
 	PracticeCode p=new PracticeCode();
 	p.x=90;
-	System.out.println(y);
+	System.out.println(y);//40
 	--y;
-	System.out.println(y);
+	System.out.println(y);//39
 	y-=5;
-	System.out.println(y);
+	System.out.println(y);//34
 	p.x=p.x-y;
-	System.out.println(y);
+	System.out.println(y);//34
 	
 	
 	
